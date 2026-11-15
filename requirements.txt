@@ -1,0 +1,19 @@
+# Experiments (versions of the Kaggle environment that produced the paper's results; see results/kaggle/r1/files/versions.json)
+torch==2.11.0
+numpy==2.1.3
+pandas==2.3.3
+scikit-learn==1.6.1
+scipy==1.16.3
+pyarrow==23.0.1
+kagglehub==1.0.0
+cryptography==46.0.1
+psutil==7.2.2
+liboqs-python          # built against liboqs 0.16.0 on Kaggle (0.15.0 locally); only the post-quantum benchmarks need it
+# Tables, figures, tests, chain scripts
+matplotlib==3.10.7
+tabulate==0.10.0
+jinja2==3.1.6
+pillow==11.2.1
+pytest==8.4.2
+web3==8.0.0
+# Chain: Node.js 24, Hardhat 2.29 (chain/package.json), solc 0.8.24, EVM hardfork Cancun

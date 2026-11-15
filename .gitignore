@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+chain/node_modules/
+chain/cache/
+chain/artifacts/
+results/kaggle/*/files/
